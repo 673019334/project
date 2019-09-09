@@ -1,0 +1,136 @@
+/* 尾部 */
+/* 尾部上半部分 */
+#footer .container{
+    width: 100%;
+    background: #333;
+    height: 60px;
+    margin-top: 50px;
+}
+#footer .footer-top li{
+ float: left;
+ width: 240px;
+ height: 60px;
+ line-height: 60px;
+ font-size: 18px;
+ color: #fff;
+ text-align: center;
+
+}
+/* 尾部下半部分 */
+/* 左半部分 */
+       /* 尾部  下 左上 */
+#footer .footer-bottom{
+    padding: 30px 0px;
+    font-size: 12px;
+    color: #333;
+}
+.f-b-left .b-l-t{
+    padding-bottom: 10px;
+}
+#footer .f-b-left{
+    width:600px;
+    box-sizing: border-box;
+    height: 150px;
+    padding-left: 50px;
+}
+.f-b-left .iconfont{
+    width: 150px;
+    height: 60px;
+    display: inline-block;
+    background: url(https://snewww.mianshui365.com/assets/images/icons.png?v=20170518_2) no-repeat 9px -195px
+}
+.f-b-left .zx-explain{
+    font-size:12px;
+    margin-left:20px;
+ width: 350px;
+}
+
+#footer a{
+    color: #333;
+}
+#footer .footer-brand p{
+    height: 20px;
+    line-height: 20px;
+}
+/* 尾部上半部分的字体图标 */
+#footer .footer-top .icon{
+    width:45px;
+    height:44px;
+    display: inline-block;
+    vertical-align: middle;   
+    margin-right: 5px;
+   
+}
+#footer .icon1
+{
+    margin-bottom: 13px;
+    background: url(https://snewww.mianshui365.com/assets/images/icons.png?v=20170518_2) no-repeat  -194px -140px
+}
+#footer .icon2
+{
+    background: url(https://snewww.mianshui365.com/assets/images/icons.png?v=20170518_2) no-repeat  -242px -109px;
+}
+#footer .icon3
+{
+    background: url(https://snewww.mianshui365.com/assets/images/icons.png?v=20170518_2) no-repeat  -195px -53px;
+}
+#footer .icon4
+{
+    background: url(https://snewww.mianshui365.com/assets/images/icons.png?v=20170518_2) no-repeat  -195px -99px;
+}
+#footer .icon5
+{
+    background: url(https://snewww.mianshui365.com/assets/images/icons.png?v=20170518_2) no-repeat  -242px -63px;
+}
+
+
+/*尾部下半部分右侧部分  */
+#footer .f-b-right{
+    width: 600px;
+    height: 125px;
+}
+.f-b-right  div{
+    width:20%;
+    text-align: center;
+    line-height: 20px;
+}
+.f-b-right  div img{
+    margin: 0 auto
+}
+.f-b-right  div h4{
+    font-size:16px;
+    color:#333;
+    padding:0px 20px 10px 20px;
+}
+/* 下半部分右侧短线 */
+.f-b-right  .s-line{
+    width: 90px;
+    height: 1px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    background: #ccc;
+}
+/* 下半部分左侧短线 */
+.f-b-left  .long-line{
+    width: 520px;
+    height: 1px;
+    display: block;
+    margin-bottom: 5px;
+    background: #ccc;
+}
+/* 尾部资质认证 */
+.f-footer-certs {
+  margin-top:35px;
+  text-align: center;
+}
+.f-footer-certs span{
+    padding: 0 30px;
+}
+.f-footer-certs span:nth-child(1){
+    padding-left:0px;
+}
+.f-footer-certs span img{
+    display: inline-block;
+   
+}

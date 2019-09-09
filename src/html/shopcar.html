@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>shopcar</title>
+    <link rel="stylesheet" href="../css/rest.css">
+    <link rel="stylesheet" href="../css/_top.css">
+    <link rel="stylesheet" href="../css/_bottom.css">
+    <link rel="stylesheet" href="../css/shopcar.css">
+</head>
+<body>
+    <script src="../js/jquery.js"></script>
+    <header class="header">
+    </header>
+    <article class="car-goods">
+        <div class="container clearfix">
+            <!-- 消费累计限购 -->
+            <div class="car-alert">
+                自然年内用户免税品累计限购30000元
+            </div>
+            <!-- 运输地点 -->
+            <div class="deliver">
+                <em>离岛地点:</em>
+                <select name="" id="didian">
+                    <option value="海口美兰机场">海口美兰机场</option>
+                    <option value="海口火车站">海口火车站</option>
+                    <option value="三亚凤凰机场">三亚凤凰机场</option>
+                    <option value="东方火车站">东方火车站</option>
+                    <span>下单后最快6小时可以提货</span>
+                </select>
+                <span>
+                        下单后最快6小时可提货
+                </span>
+            </div>
+            <!-- 购物车商品列表 -->
+            <div class="goodslist">
+                <!-- 商品总价 -->
+                <div class="xtotal clearfix">
+                 <p class="left"> m免税易购365</p>
+                 <p class="right">小计：￥<span>0 </span></p>
+                </div>
+                <!-- 详细商品列表 -->
+                <div class="goodtable">
+                    <table class="table">
+                        <tbody>
+                        <tr>
+                            <!-- 复选框 -->
+                            <td>
+                                <input type="checkbox" checked="checked">
+                            </td>
+                            <!-- 商品描述 -->
+                            <td class="gooddes">
+                                <div class="left "><img src="https://img.mianshui365.com/upload/20160627/14130056491.jpg?x-oss-process=image/resize,w_105,h_105/quality,Q_90" alt="" class="pic"></div>
+                                <div class="left">
+                                   <h5 class="title">LANEIGE兰芝</h5>
+                                   <p class="des">致美紧颜细肤水 120ml</p>
+                                   <span class="code">条码：8801042702073</span>
+                               </div>
+                            </td>
+                            <!-- 商品规格 -->
+                            <td class="spec">
+                                <span>选择：120ml</span>
+                            </td>
+                            <!-- 价格 -->
+                            <td class="prices">
+                                  <p> 免税价格:<span>¥242</span></p>
+                                  <p>总价: <em></em> </p>
+                            </td>
+                            <!-- 商品数量 -->
+                            <td class="shuliang clearfix">
+                                <span class="jianjian">-</span>
+                                <em>1</em>
+                                <span class="jiajia">+</span>
+                            </td>
+                            <!-- 删除商品-->
+                            <td>
+                                <p><span class="love"></span>加入收藏</p>
+                                <p class="dels"><span class="del"></span>删除商品</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- 总价金额 -->
+            <div class="total clearfix">
+                <div class="left clearfix">
+                    <!-- 左侧全选框 -->
+                    <div class="left all-choose" >
+                     <span>全选&nbsp;&nbsp;</span><input type="checkbox" checked="cheched">
+                    </div>
+                    <!-- 左侧右面价格总价 -->
+                    <div class="right total-p">
+                        <p class="total-num">总件数: <em>0</em>件</p>
+                        <p class="right total-price"> 购物车总金额<span>¥</span><span class="span2">0</span></p>
+                    </div>
+                </div>
+                <!-- 右侧确认订单 -->
+                <div class="right order">
+                    确认订单
+                </div>
+            </div>
+        </div>
+    </article> 
+
+    <footer id="footer">
+    </footer>
+    <script src="../js/shopcar.js"></script>
+</body>
+</html>

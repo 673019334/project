@@ -1,0 +1,40 @@
+body,div,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,form,fieldset,legend,input,table,tr,td{ margin:0; padding:0;}
+
+body{
+    font-size: 14px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+.clearfix::after{
+    content:'';
+    display:block;
+    clear:both;height:0;
+    overflow:hidden;
+    visibility:hidden;
+}
+.left{
+    float: left;
+}
+.right{
+    float:right;
+}
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+em,i{
+    font-style: normal;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+b{
+    font-weight: 100;
+}

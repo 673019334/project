@@ -1,0 +1,182 @@
+/* 顶部logo区域 */
+.top div {
+    height: 84px;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.top div img {
+    width: 192px;
+    height: 61px;
+}
+
+/* 中间部分 */
+.middle .contain {
+    width: 100%;
+    height: 415px;
+    background: url(https://snewww.mianshui365.com/images/passport/background.jpg);
+    overflow: hidden;
+}
+
+.middle .wrapper {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.middle img {
+    width: 720px;
+    height: 350px;
+    margin: 65px 0 0;
+    box-sizing: border-box;
+}
+
+/* 中间部分表单 */
+.middle .form {
+    width: 360px;
+    padding: 30px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    background: white;
+}
+
+
+.middle .form h3 {
+   
+    text-align: center;
+    color: #303030;
+    font-size: 20px;
+    height: 15px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #d5d5d5;
+   
+}
+.middle .form h3 span{
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 10px;
+    background-color: #fff;
+}
+
+.middle .form li>span {
+    color: #303030;
+    font-size: 12px;
+    padding: 5px 0;
+    display: inline-block;
+}
+.middle .form  span {
+    display: inline-block;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.middle .form input {
+
+    padding: 5px 10px;
+    width: 278px;
+    height: 23px;
+    line-height: 28px;
+    border: 1px solid #d5d5d5;
+    background-color: #fff;
+    box-shadow: inset 0 1px 2px hsla(0, 0%, 39%, .1);
+    outline: none;
+
+}
+input::-webkit-input-placeholder{
+    font-size: 12px;
+ }
+
+.middle .form .remember {
+    width: 15px;
+
+}
+
+.middle .form .btn {
+    border: 1px solid #e85356;
+    display: block;
+    width: 302px;
+    background: #fc4300;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.middle .form em,
+.middle .form a {
+    color: #AAAA;
+}
+
+.middle .form .checkbox {
+    margin-top: 5px;
+}
+
+.middle .form .huiyuan {
+    margin-top: 8px;
+}
+
+.middle .form span>a {
+    color: #fc4300;
+}
+.middle .form .login-submit{
+   color: #fff;
+}
+/* 报错提示框 */
+.middle #tips{
+    display: none;
+    font-size: 12px;
+    color: #e71f19;
+    padding: 2px 0 2px 5px;
+    height: 12px;
+    border: 1px solid #e71f19;
+    margin-bottom: 8px;
+    line-height: 12px;
+}
+
+/* 尾部 */
+.bottom .wraper {
+    width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bottom ul li {
+    font-size: 12px;
+    margin: 25px auto;
+    float: left;
+    border-right: 1px solid #eee;
+    box-sizing: border-box;
+  
+}
+.bottom ul{
+    width: 534px;
+    margin: 0 auto;
+}
+.bottom ul li a {
+    display: block;
+    margin: 0 20px;
+    color: #333;
+}
+
+.bottom
+
+/* 尾部资质认证 */
+.f-footer-certs {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.f-footer-certs span {
+    padding: 0 30px;
+}
+
+.f-footer-certs span:nth-child(1) {
+    padding-left: 0px;
+}
+
+.f-footer-certs span img {
+    display: inline-block;
+
+}
